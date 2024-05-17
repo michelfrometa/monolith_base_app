@@ -33,7 +33,7 @@ public class OrderService {
     }
 
     /**
-     * Retrieves a order by its ID.
+     * Retrieves an order by its ID.
      *
      * @param id the ID of the order
      * @return a Mono emitting the order if found, otherwise empty
@@ -70,7 +70,7 @@ public class OrderService {
     }
 
     /**
-     * Deletes a order by its ID.
+     * Deletes an order by its ID.
      *
      * @param id the ID of the order to delete
      * @return a Mono completing when the deletion is done

@@ -34,7 +34,7 @@ public class InventoryService {
     }
 
     /**
-     * Retrieves a inventory by its ID.
+     * Retrieves an inventory by its ID.
      *
      * @param id the ID of the inventory
      * @return a Mono emitting the inventory if found, otherwise empty
