@@ -1,5 +1,10 @@
 server:
   port: 10000
+
+spring:
+  kafka:
+    bootstrap-servers: http://localhost:60052
+
 order-service:
   base-url: http://localhost:10000/orders
 product-service:
