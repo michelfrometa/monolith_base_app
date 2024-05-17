@@ -1,0 +1,8 @@
+server:
+  port: 10000
+order-service:
+  base-url: http://localhost:10000/orders
+product-service:
+  base-url: http://localhost:10000/products
+inventory-service:
+  base-url: http://localhost:10000/inventories
